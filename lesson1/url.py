@@ -28,4 +28,3 @@ try:
 except requests.exceptions.ConnectionError as e:
 	print("--- === ---")
 	print("Вы не смогли зайти на сайт: " + url)
-
