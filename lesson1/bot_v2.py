@@ -1,6 +1,7 @@
 from telegram.ext import Updater, CommandHandler
 
-def start_bot(bot, updater)
+def start_bot(bot, updater):
+    print("start")
 
 def main():
     updtr = Updater("366340595:AAFyTYshBiFi9_ornCx2LnyDfl6sgI0Cmmg")
@@ -11,5 +12,5 @@ def main():
     updtr.idle()
 
 
-if __name == "__main__":
+if __name__ == "__main__":
     main()
