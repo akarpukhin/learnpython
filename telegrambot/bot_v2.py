@@ -6,8 +6,6 @@ import settings
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG_FILE = os.path.join(BASE_DIR, "telegrambot/logs/bot_v2.log")
 
-print(LOG_FILE)
-
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
                     filename=LOG_FILE
