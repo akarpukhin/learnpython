@@ -3,7 +3,7 @@ def age_validation(age):
         return int(age)
     elif age == 'exit':
         exit()
-    print(age + ': не возраст')
+    print('{age} : не возраст'.format(age=age))
 
 
 def main(age):
